@@ -76,7 +76,9 @@ ul { list-style: none; }
 /* HERO */
 .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: var(--navy); position: relative; overflow: hidden; }
 .hero-bg { position: absolute; inset: 0; background: linear-gradient(135deg, #0f1d35 0%, #1B2B4B 60%, #243660 100%); }
-.hero-overlay { position: absolute; inset: 0; opacity: 0.06; background: url('Hero bg.png') center/cover; }
+.hero-overlay { position: absolute; inset: 0; opacity: 1; background: url('Hero_bg.png') center/cover no-repeat; }
+.hero-bg { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(15,29,53,0.82) 0%, rgba(27,43,75,0.78) 60%, rgba(36,54,96,0.82) 100%); z-index: 1; }
+.hero-overlay { z-index: 0; }
 .hero-particles { position: absolute; inset: 0; pointer-events: none; }
 .hero-content { position: relative; z-index: 2; text-align: center; max-width: 800px; padding: 140px 32px 80px; }
 .hero-eyebrow { font-family: var(--font-nav); font-size: 10px; font-weight: 700; letter-spacing: 5px; text-transform: uppercase; color: rgba(255,255,255,0.55); margin-bottom: 24px; display: block; }
