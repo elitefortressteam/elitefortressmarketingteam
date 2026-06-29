@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elite Fortress Publishing & Marketing | Publish · Brand · Market · Grow · Succeed</title>
+  <meta name="description" content="Elite Fortress Publishing & Marketing — A full-service publishing, branding, and marketing agency dedicated to helping authors, entrepreneurs, and businesses build lasting success." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader">
+    <div class="loader-logo">
+      <img src="images/logo.png" alt="Elite Fortress Logo" />
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.png" alt="Elite Fortress Publishing & Marketing" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#authors">Authors</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="nav-cta">Start Your Project</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" onclick="closeMobile()">About</a></li>
+        <li><a href="#services" onclick="closeMobile()">Services</a></li>
+        <li><a href="#authors" onclick="closeMobile()">Authors</a></li>
+        <li><a href="#portfolio" onclick="closeMobile()">Portfolio</a></li>
+        <li><a href="#team" onclick="closeMobile()">Team</a></li>
+        <li><a href="#testimonials" onclick="closeMobile()">Testimonials</a></li>
+        <li><a href="#faq" onclick="closeMobile()">FAQ</a></li>
+        <li><a href="#contact" onclick="closeMobile()" class="nav-cta">Start Your Project</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow fade-up">Premium Publishing & Marketing Agency</p>
+      <h1 class="hero-title fade-up">
+        Elite Fortress<br />
+        <span class="gold-text">Publishing & Marketing</span>
+      </h1>
+      <p class="hero-tagline fade-up">Publish · Brand · Market · Grow · Succeed</p>
+      <p class="hero-sub fade-up">Helping Authors, Businesses & Brands Build Lasting Success<br />Through Writing, Publishing & Strategic Marketing.</p>
+      <div class="hero-btns fade-up">
+        <a href="#contact" class="btn-gold">Start Your Project</a>
+        <a href="#portfolio" class="btn-outline">View Our Portfolio</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- TRUSTED BY -->
+  <section class="trusted">
+    <p class="trusted-label">Trusted by Authors, Entrepreneurs & Businesses Worldwide</p>
+    <div class="trusted-track">
+      <div class="trusted-inner">
+        <span>Amazon</span>
+        <span>Kindle</span>
+        <span>Goodreads</span>
+        <span>Amazon KDP</span>
+        <span>Google</span>
+        <span>Facebook</span>
+        <span>Instagram</span>
+        <span>Barnes & Noble</span>
+        <span>IngramSpark</span>
+        <span>Amazon</span>
+        <span>Kindle</span>
+        <span>Goodreads</span>
+        <span>Amazon KDP</span>
+        <span>Google</span>
+        <span>Facebook</span>
+        <span>Instagram</span>
+        <span>Barnes & Noble</span>
+        <span>IngramSpark</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section-pad">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual fade-left">
+          <div class="about-img-frame">
+            <img src="images/about-team.jpg" alt="Elite Fortress Team" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="about-img-placeholder">
+              <span>📸</span>
+              <p>Add your team photo here<br/><small>Replace images/about-team.jpg</small></p>
+            </div>
+          </div>
+          <div class="about-stat-card">
+            <div class="stat"><span class="stat-num" data-count="200">0</span><span>+</span><p>Authors Served</p></div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num" data-count="98">0</span><span>%</span><p>Client Satisfaction</p></div>
+            <div class="stat-divider"></div>
+            <div class="stat"><span class="stat-num" data-count="5">0</span><span>+</span><p>Years Experience</p></div>
+          </div>
+        </div>
+        <div class="about-text fade-right">
+          <p class="section-eyebrow">About Us</p>
+          <h2 class="section-title">We Don't Just Publish Books...<br /><span class="gold-text">We Build Author Brands.</span></h2>
+          <p>At Elite Fortress Publishing & Marketing, we believe every great story deserves to be discovered. We are a full-service publishing, branding, and marketing agency dedicated to helping authors, entrepreneurs, businesses, and organizations transform ideas into impactful books, thriving brands, and measurable success.</p>
+          <p>From the first draft of a manuscript to international book distribution, Amazon optimization, strategic marketing campaigns, and long-term brand development — we partner with our clients every step of the journey.</p>
+          <p>We combine creativity with data-driven marketing, ensuring that every project not only looks exceptional but also reaches the right audience.</p>
+          <div class="about-mission">
+            <div class="mission-line"></div>
+            <p><em>"To help visionary people transform their ideas into influence, impact, and income."</em></p>
+          </div>
+          <a href="#contact" class="btn-gold">Work With Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why section-pad">
+    <div class="container">
+      <p class="section-eyebrow text-center">Why Choose Us</p>
+      <h2 class="section-title text-center">The Elite Difference</h2>
+      <div class="why-grid">
+        <div class="why-card fade-up">
+          <div class="why-icon">🏆</div>
+          <h3>Complete End-to-End Solutions</h3>
+          <p>Writing to Publishing to Marketing — everything under one roof.</p>
+        </div>
+        <div class="why-card fade-up">
+          <div class="why-icon">👥</div>
+          <h3>Experienced Specialists</h3>
+          <p>Professional writers, designers, marketers, publishers and strategists.</p>
+        </div>
+        <div class="why-card fade-up">
+          <div class="why-icon">📈</div>
+          <h3>Results Driven</h3>
+          <p>Every strategy focused on visibility, audience growth, and measurable success.</p>
+        </div>
+        <div class="why-card fade-up">
+          <div class="why-icon">🎯</div>
+          <h3>Personalized Approach</h3>
+          <p>Every author receives a custom strategy designed around their unique goals.</p>
+        </div>
+        <div class="why-card fade-up">
+          <div class="why-icon">🤝</div>
+          <h3>Long-Term Partnership</h3>
+          <p>We grow alongside our clients even after publication is complete.</p>
+        </div>
+        <div class="why-card fade-up">
+          <div class="why-icon">🌍</div>
+          <h3>Global Reach</h3>
+          <p>International distribution and marketing for authors worldwide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services section-pad">
+    <div class="container">
+      <p class="section-eyebrow text-center">What We Do</p>
+      <h2 class="section-title text-center">Our <span class="gold-text">Services</span></h2>
+      <div class="services-grid">
+
+        <div class="service-card fade-up">
+          <div class="service-icon">✍️</div>
+          <h3>Writing Services</h3>
+          <ul>
+            <li>Ghostwriting</li>
+            <li>Book Writing</li>
+            <li>eBook Writing</li>
+            <li>Website Copywriting</li>
+            <li>Editing & Proofreading</li>
+            <li>Script Writing</li>
+            <li>Business Content</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-icon">📚</div>
+          <h3>Publishing</h3>
+          <ul>
+            <li>Amazon KDP</li>
+            <li>Paperback & Hardcover</li>
+            <li>ISBN Registration</li>
+            <li>Publishing Consultation</li>
+            <li>Self-Publishing</li>
+            <li>Book Distribution</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-icon">📐</div>
+          <h3>Book Formatting</h3>
+          <ul>
+            <li>Print Layout</li>
+            <li>eBook Formatting</li>
+            <li>Professional Interior Design</li>
+            <li>Print-Ready Files</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-icon">🎨</div>
+          <h3>Design</h3>
+          <ul>
+            <li>Book Covers</li>
+            <li>Author Branding</li>
+            <li>Logo Design</li>
+            <li>Book Mockups</li>
+            <li>Amazon A+ Content</li>
+            <li>Marketing Graphics</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-icon">📣</div>
+          <h3>Digital Marketing</h3>
+          <ul>
+            <li>Book Marketing</li>
+            <li>Amazon Marketing</li>
+            <li>Goodreads Marketing</li>
+            <li>SEO</li>
+            <li>Email Marketing</li>
+            <li>Paid Ads</li>
+            <li>Book Launch Campaigns</li>
+            <li>Social Media</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-icon">💻</div>
+          <h3>Website Development</h3>
+          <ul>
+            <li>Author Websites</li>
+            <li>Business Websites</li>
+            <li>Landing Pages</li>
+            <li>SEO Optimization</li>
+            <li>Maintenance</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-icon">🏢</div>
+          <h3>Branding</h3>
+          <ul>
+            <li>Business Consulting</li>
+            <li>Marketing Strategy</li>
+            <li>Brand Identity</li>
+            <li>Personal Branding</li>
+          </ul>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-icon">🗂️</div>
+          <h3>Virtual Assistance</h3>
+          <ul>
+            <li>Administrative Support</li>
+            <li>Customer Support</li>
+            <li>Calendar Management</li>
+            <li>Research</li>
+            <li>Project Coordination</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR PROCESS -->
+  <section class="process section-pad">
+    <div class="container">
+      <p class="section-eyebrow text-center">How We Work</p>
+      <h2 class="section-title text-center">Our <span class="gold-text">Process</span></h2>
+      <div class="process-timeline">
+        <div class="process-step fade-up">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>Discovery Call</h3>
+            <p>We learn about your goals, vision, and project needs in a free consultation.</p>
+          </div>
+        </div>
+        <div class="process-arrow">↓</div>
+        <div class="process-step fade-up">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>Planning & Strategy</h3>
+            <p>We build a custom roadmap tailored to your audience, timeline, and budget.</p>
+          </div>
+        </div>
+        <div class="process-arrow">↓</div>
+        <div class="process-step fade-up">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Writing / Publishing / Design</h3>
+            <p>Our specialists execute your project to the highest professional standard.</p>
+          </div>
+        </div>
+        <div class="process-arrow">↓</div>
+        <div class="process-step fade-up">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Marketing Campaign</h3>
+            <p>We launch and promote your book or brand across all key platforms.</p>
+          </div>
+        </div>
+        <div class="process-arrow">↓</div>
+        <div class="process-step fade-up">
+          <div class="step-num">05</div>
+          <div class="step-content">
+            <h3>Growth & Ongoing Support</h3>
+            <p>We continue to monitor, optimize, and grow your presence long after launch.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUTHORS WE HAVE SUPPORTED -->
+  <section id="authors" class="authors section-pad">
+    <div class="container">
+      <p class="section-eyebrow text-center">Our Work</p>
+      <h2 class="section-title text-center">Authors We Have <span class="gold-text">Supported</span></h2>
+      <div class="authors-grid">
+
+        <div class="author-card fade-up">
+          <div class="author-book-img">
+            <img src="images/books/marjorie.jpg" alt="Inquiring Deeply" onerror="this.style.display='none'" />
+            <div class="book-placeholder">📖</div>
+          </div>
+          <div class="author-info">
+            <h4>Marjorie Schuman</h4>
+            <p class="book-title"><em>Inquiring Deeply: Problems as a Path to Awareness</em></p>
+            <p class="author-service">Publishing · Marketing · Design</p>
+            <a href="https://amazon.com" target="_blank" class="amazon-btn">View on Amazon →</a>
+          </div>
+        </div>
+
+        <div class="author-card fade-up">
+          <div class="author-book-img">
+            <img src="images/books/brigitte.jpg" alt="Getting Over Growing Older" onerror="this.style.display='none'" />
+            <div class="book-placeholder">📖</div>
+          </div>
+          <div class="author-info">
+            <h4>Brigitte Nioche</h4>
+            <p class="book-title"><em>Getting Over Growing Older</em></p>
+            <p class="author-service">Publishing · Branding · Marketing</p>
+            <a href="https://amazon.com" target="_blank" class="amazon-btn">View on Amazon →</a>
+          </div>
+        </div>
+
+        <div class="author-card fade-up">
+          <div class="author-book-img">
+            <div class="book-placeholder">📖</div>
+          </div>
+          <div class="author-info">
+            <h4>Robert Simon Siegel</h4>
+            <p class="book-title"><em>Energy Joy</em></p>
+            <p class="author-service">Writing · Publishing · Marketing</p>
+            <a href="https://amazon.com" target="_blank" class="amazon-btn">View on Amazon →</a>
+          </div>
+        </div>
+
+        <div class="author-card fade-up">
+          <div class="author-book-img">
+            <div class="book-placeholder">📖</div>
+          </div>
+          <div class="author-info">
+            <h4>Craig Stratton</h4>
+            <p class="book-title"><em>Built Back Bold</em></p>
+            <p class="author-service">Ghostwriting · Publishing · Design</p>
+            <a href="https://amazon.com" target="_blank" class="amazon-btn">View on Amazon →</a>
+          </div>
+        </div>
+
+        <div class="author-card fade-up">
+          <div class="author-book-img">
+            <div class="book-placeholder">📖</div>
+          </div>
+          <div class="author-info">
+            <h4>Samantha Harvey</h4>
+            <p class="book-title"><em>Orbital</em></p>
+            <p class="author-service">Marketing · Amazon Optimization</p>
+            <a href="https://amazon.com" target="_blank" class="amazon-btn">View on Amazon →</a>
+          </div>
+        </div>
+
+        <div class="author-card fade-up">
+          <div class="author-book-img">
+            <div class="book-placeholder">📖</div>
+          </div>
+          <div class="author-info">
+            <h4>Ashwildroot</h4>
+            <p class="book-title"><em>The Sundering Prophecy</em></p>
+            <p class="author-service">Book Cover · Formatting · KDP</p>
+            <a href="https://amazon.com" target="_blank" class="amazon-btn">View on Amazon →</a>
+          </div>
+        </div>
+
+        <div class="author-card fade-up">
+          <div class="author-book-img">
+            <div class="book-placeholder">📖</div>
+          </div>
+          <div class="author-info">
+            <h4>Ali Kasa</h4>
+            <p class="book-title"><em>Keys To Productive Leadership</em></p>
+            <p class="author-service">Writing · Publishing · Branding</p>
+            <a href="https://amazon.com" target="_blank" class="amazon-btn">View on Amazon →</a>
+          </div>
+        </div>
+
+        <div class="author-card fade-up">
+          <div class="author-book-img">
+            <div class="book-placeholder">📖</div>
+          </div>
+          <div class="author-info">
+            <h4>Dr. Clint Steele</h4>
+            <p class="book-title"><em>101 Brain-Boosting Hacks</em></p>
+            <p class="author-service">Editing · Design · Marketing</p>
+            <a href="https://amazon.com" target="_blank" class="amazon-btn">View on Amazon →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="portfolio section-pad">
+    <div class="container">
+      <p class="section-eyebrow text-center">Our Portfolio</p>
+      <h2 class="section-title text-center">Our <span class="gold-text">Work</span></h2>
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="covers">Book Covers</button>
+        <button class="filter-btn" data-filter="marketing">Marketing</button>
+        <button class="filter-btn" data-filter="websites">Websites</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item fade-up" data-cat="covers">
+          <div class="portfolio-img-wrap">
+            <img src="images/portfolio/cover1.jpg" alt="Book Cover Design" onerror="this.style.display='none'" />
+            <div class="portfolio-placeholder">🎨<br/>Book Cover Design</div>
+            <div class="portfolio-overlay">
+              <p>Book Cover Design</p>
+              <span>Design</span>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item fade-up" data-cat="marketing">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-placeholder">📣<br/>Amazon A+ Content</div>
+            <div class="portfolio-overlay">
+              <p>Amazon A+ Content</p>
+              <span>Marketing</span>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item fade-up" data-cat="websites">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-placeholder">💻<br/>Author Website</div>
+            <div class="portfolio-overlay">
+              <p>Author Website</p>
+              <span>Web Development</span>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item fade-up" data-cat="covers">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-placeholder">📚<br/>Book Mockup</div>
+            <div class="portfolio-overlay">
+              <p>Book Mockup</p>
+              <span>Design</span>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item fade-up" data-cat="marketing">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-placeholder">📈<br/>Marketing Campaign</div>
+            <div class="portfolio-overlay">
+              <p>Book Launch Campaign</p>
+              <span>Marketing</span>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item fade-up" data-cat="design">
+          <div class="portfolio-img-wrap">
+            <div class="portfolio-placeholder">🏷️<br/>Author Branding</div>
+            <div class="portfolio-overlay">
+              <p>Author Branding</p>
+              <span>Branding</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="portfolio-note">📌 Add your real portfolio images to the <code>images/portfolio/</code> folder</p>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="team section-pad">
+    <div class="container">
+      <p class="section-eyebrow text-center">Meet The Team</p>
+      <h2 class="section-title text-center">The People Behind <span class="gold-text">Elite Fortress</span></h2>
+      <p class="team-intro text-center">Our team is made up of experienced professionals who are passionate about helping authors, entrepreneurs, businesses, and content creators bring their ideas to life.</p>
+      <div class="team-grid">
+
+        <div class="team-card fade-up">
+          <div class="team-photo">
+            <img src="images/team/ayobami.jpg" alt="Ayobami John" onerror="this.style.display='none'" />
+            <div class="team-photo-placeholder">AJ</div>
+          </div>
+          <div class="team-info">
+            <h4>Ayobami John</h4>
+            <p class="team-role">Founder & Creative Director</p>
+            <p class="team-bio">Leads the company, develops business strategy, oversees all projects, and ensures every client receives exceptional service.</p>
+            <div class="team-tags">
+              <span>Business Strategy</span>
+              <span>Project Leadership</span>
+              <span>Client Relations</span>
+              <span>Quality Assurance</span>
+            </div>
+            <div class="team-socials">
+              <a href="mailto:elitefortress2@gmail.com" title="Email">✉️</a>
+              <a href="#" title="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card fade-up">
+          <div class="team-photo">
+            <img src="images/team/elina.jpg" alt="Elina Edison" onerror="this.style.display='none'" />
+            <div class="team-photo-placeholder">EE</div>
+          </div>
+          <div class="team-info">
+            <h4>Elina Edison</h4>
+            <p class="team-role">Marketing & Brand Strategist</p>
+            <p class="team-bio">Develops customized marketing strategies that help clients increase visibility, grow their audience, and achieve their goals.</p>
+            <div class="team-tags">
+              <span>Digital Marketing</span>
+              <span>Brand Strategy</span>
+              <span>Social Media</span>
+              <span>Email Marketing</span>
+            </div>
+            <div class="team-socials">
+              <a href="mailto:elitefortress2@gmail.com" title="Email">✉️</a>
+              <a href="#" title="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card fade-up">
+          <div class="team-photo">
+            <img src="images/team/beulah.jpg" alt="Beulah F" onerror="this.style.display='none'" />
+            <div class="team-photo-placeholder">BF</div>
+          </div>
+          <div class="team-info">
+            <h4>Beulah F.</h4>
+            <p class="team-role">Content Writer & Ghostwriter</p>
+            <p class="team-bio">Creates engaging, high-quality content tailored to each client's unique voice, audience, and goals.</p>
+            <div class="team-tags">
+              <span>Book Writing</span>
+              <span>Ghostwriting</span>
+              <span>Blog Articles</span>
+              <span>Website Copy</span>
+            </div>
+            <div class="team-socials">
+              <a href="mailto:elitefortress2@gmail.com" title="Email">✉️</a>
+              <a href="#" title="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card fade-up">
+          <div class="team-photo">
+            <img src="images/team/samuel.jpg" alt="Samuel Matthew" onerror="this.style.display='none'" />
+            <div class="team-photo-placeholder">SM</div>
+          </div>
+          <div class="team-info">
+            <h4>Samuel Matthew</h4>
+            <p class="team-role">Publishing & Formatting Specialist</p>
+            <p class="team-bio">Prepares manuscripts for publication and ensures they meet professional publishing standards across all platforms.</p>
+            <div class="team-tags">
+              <span>Amazon KDP</span>
+              <span>eBook Formatting</span>
+              <span>Interior Layout</span>
+              <span>Publishing Support</span>
+            </div>
+            <div class="team-socials">
+              <a href="mailto:elitefortress2@gmail.com" title="Email">✉️</a>
+              <a href="#" title="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card fade-up">
+          <div class="team-photo">
+            <img src="images/team/patrick.jpg" alt="Patrick Adeyemi" onerror="this.style.display='none'" />
+            <div class="team-photo-placeholder">PA</div>
+          </div>
+          <div class="team-info">
+            <h4>Patrick Adeyemi</h4>
+            <p class="team-role">Graphic & Creative Designer</p>
+            <p class="team-bio">Designs compelling visuals that strengthen brands, capture audience attention, and make books stand out on the shelf.</p>
+            <div class="team-tags">
+              <span>Book Cover Design</span>
+              <span>Brand Identity</span>
+              <span>Social Media</span>
+              <span>Marketing Graphics</span>
+            </div>
+            <div class="team-socials">
+              <a href="mailto:elitefortress2@gmail.com" title="Email">✉️</a>
+              <a href="#" title="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card fade-up">
+          <div class="team-photo">
+            <img src="images/team/marvelous.jpg" alt="Marvelous A" onerror="this.style.display='none'" />
+            <div class="team-photo-placeholder">MA</div>
+          </div>
+          <div class="team-info">
+            <h4>Marvelous A.</h4>
+            <p class="team-role">Web & Technology Specialist</p>
+            <p class="team-bio">Builds and manages websites while providing technical solutions that support business growth and online visibility.</p>
+            <div class="team-tags">
+              <span>Website Design</span>
+              <span>Landing Pages</span>
+              <span>SEO</span>
+              <span>Technical Support</span>
+            </div>
+            <div class="team-socials">
+              <a href="mailto:elitefortress2@gmail.com" title="Email">✉️</a>
+              <a href="#" title="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card fade-up">
+          <div class="team-photo">
+            <img src="images/team/ruth.jpg" alt="Ruth J" onerror="this.style.display='none'" />
+            <div class="team-photo-placeholder">RJ</div>
+          </div>
+          <div class="team-info">
+            <h4>Ruth J.</h4>
+            <p class="team-role">Client Success & Project Coordinator</p>
+            <p class="team-bio">Ensures every project runs smoothly, stays on schedule, and delivers an outstanding experience for every client.</p>
+            <div class="team-tags">
+              <span>Client Communication</span>
+              <span>Project Management</span>
+              <span>Team Coordination</span>
+              <span>Quality Control</span>
+            </div>
+            <div class="team-socials">
+              <a href="mailto:elitefortress2@gmail.com" title="Email">✉️</a>
+              <a href="#" title="LinkedIn">in</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="testimonials section-pad">
+    <div class="container">
+      <p class="section-eyebrow text-center">Client Love</p>
+      <h2 class="section-title text-center">What Our <span class="gold-text">Clients Say</span></h2>
+      <div class="testimonials-slider">
+        <div class="testi-track" id="testiTrack">
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Elite Fortress transformed my manuscript into a bestselling book. Their attention to detail and marketing expertise is unmatched. I couldn't have done this without them."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">M</div>
+              <div>
+                <strong>Marjorie Schuman</strong>
+                <span>Author, Inquiring Deeply</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>"From cover design to Amazon launch, the team handled everything professionally. My book reached readers I never imagined possible. Truly elite service."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">B</div>
+              <div>
+                <strong>Brigitte Nioche</strong>
+                <span>Author, Getting Over Growing Older</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Professional, creative, and results-driven. Elite Fortress took my vision and turned it into a reality beyond my expectations. Highly recommended for any author."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">C</div>
+              <div>
+                <strong>Craig Stratton</strong>
+                <span>Author, Built Back Bold</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <p>"Working with Elite Fortress was the best investment I made for my book. Their strategy, creativity, and support throughout the process was exceptional."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">A</div>
+              <div>
+                <strong>Ali Kasa</strong>
+                <span>Author, Keys To Productive Leadership</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="testi-controls">
+          <button onclick="slideTesti(-1)">‹</button>
+          <button onclick="slideTesti(1)">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq section-pad">
+    <div class="container">
+      <p class="section-eyebrow text-center">Questions</p>
+      <h2 class="section-title text-center">Frequently Asked <span class="gold-text">Questions</span></h2>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question">How long does publishing take? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Publishing timelines vary by project. Typically, a standard book publishing project takes 4–8 weeks from manuscript to live on Amazon, including formatting, cover design, and ISBN registration.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Do you publish internationally? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Yes! We publish through Amazon KDP and IngramSpark, giving your book access to global distribution across 100+ countries and major retailers worldwide.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Can you market an already published book? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Absolutely. We frequently work with authors who have already published. We optimize your Amazon listing, launch targeted campaigns, and grow your readership from where you are now.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Do you help first-time authors? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Yes — we specialize in guiding first-time authors through every step of the process, from writing and editing to publishing and marketing. No experience needed.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Can you create Amazon A+ Content? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Yes. We design professional Amazon A+ Content that increases conversions and makes your book listing stand out from competitors.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Do you build author websites? <span>+</span></button>
+          <div class="faq-answer">
+            <p>Yes. We build fully custom, SEO-optimized author websites that reflect your brand and convert visitors into readers and buyers.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">What is your response time? <span>+</span></button>
+          <div class="faq-answer">
+            <p>We respond to all inquiries within 24 hours. For urgent projects, reach us directly at elitefortress2@gmail.com.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section-pad">
+    <div class="container">
+      <p class="section-eyebrow text-center">Get In Touch</p>
+      <h2 class="section-title text-center">Start Your <span class="gold-text">Project</span></h2>
+      <p class="contact-sub text-center">Tell us about your project and we'll get back to you within 24 hours.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info fade-left">
+          <div class="contact-detail">
+            <span>✉️</span>
+            <div>
+              <strong>Email Us</strong>
+              <a href="mailto:elitefortress2@gmail.com">elitefortress2@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span>⏱️</span>
+            <div>
+              <strong>Response Time</strong>
+              <p>Within 24 Hours</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span>🌍</span>
+            <div>
+              <strong>We Serve</strong>
+              <p>Authors & Businesses Worldwide</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="contact-form fade-right">
+          <div id="formSuccess" class="form-success" style="display:none;">
+            ✅ Thank you! We'll be in touch within 24 hours.
+          </div>
+          <div class="form-group">
+            <input type="text" id="fname" placeholder="Full Name *" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="email" id="femail" placeholder="Email Address *" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" id="fphone" placeholder="Phone Number" />
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="fcountry" placeholder="Country" />
+          </div>
+          <div class="form-group">
+            <input type="text" id="fbook" placeholder="Book Title (if applicable)" />
+          </div>
+          <div class="form-group">
+            <input type="text" id="fgenre" placeholder="Genre / Type of Project" />
+          </div>
+          <div class="form-group">
+            <select id="fstatus">
+              <option value="" disabled selected>Current Publishing Status</option>
+              <option>I have a manuscript ready</option>
+              <option>I'm still writing</option>
+              <option>Already published, need marketing</option>
+              <option>Just starting out</option>
+              <option>Business / Brand project</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select id="fservice">
+              <option value="" disabled selected>Services Needed</option>
+              <option>Writing / Ghostwriting</option>
+              <option>Publishing (KDP / Print)</option>
+              <option>Book Formatting</option>
+              <option>Book Cover Design</option>
+              <option>Digital Marketing</option>
+              <option>Website Development</option>
+              <option>Branding</option>
+              <option>Virtual Assistance</option>
+              <option>Full Package (Multiple Services)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select id="fbudget">
+              <option value="" disabled selected>Budget Range</option>
+              <option>Under $500</option>
+              <option>$500 – $1,000</option>
+              <option>$1,000 – $3,000</option>
+              <option>$3,000 – $5,000</option>
+              <option>$5,000+</option>
+              <option>Flexible / Open to discuss</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="fmessage" placeholder="Tell us about your project..." rows="5"></textarea>
+          </div>
+          <button class="btn-gold full-width" onclick="submitForm()">Start My Project →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Elite Fortress Publishing & Marketing" class="footer-logo" />
+          <p>Helping Authors, Businesses & Brands Publish, Market & Grow Through Expert Publishing & Strategic Marketing.</p>
+          <p class="footer-tagline">Publish · Brand · Market · Grow · Succeed</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#authors">Authors</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Writing & Ghostwriting</a></li>
+            <li><a href="#services">Publishing (KDP)</a></li>
+            <li><a href="#services">Book Cover Design</a></li>
+            <li><a href="#services">Digital Marketing</a></li>
+            <li><a href="#services">Author Websites</a></li>
+            <li><a href="#services">Branding</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>✉️ <a href="mailto:elitefortress2@gmail.com">elitefortress2@gmail.com</a></p>
+          <p>⏱️ Response within 24 hours</p>
+          <div class="footer-socials">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Elite Fortress Publishing & Marketing. All Rights Reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
